@@ -1,4 +1,4 @@
-# Personal Homebrew Tap
+# Personal Homebrew tap
 
 ```shell
 brew tap jaantoots/jaantoots
