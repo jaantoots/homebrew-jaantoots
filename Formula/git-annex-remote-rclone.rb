@@ -15,6 +15,6 @@ class GitAnnexRemoteRclone < Formula
   end
 
   test do
-    assert_equal "VERSION 1", shell_output("git-annex-remote-rclone < /dev/null").strip
+    assert_equal "VERSION 1", shell_output("#{bin}/git-annex-remote-rclone < /dev/null").strip
   end
 end
